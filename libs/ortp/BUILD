@@ -1,11 +1,10 @@
-(
 
   default_config &&
 
-  sedit "s:yes/:/:g" Makefile src/Makefile src/tests/Makefile &&
+# Fixes a make failure related to its confusion about some paths.
+  find . -name Makefile -print0 | xargs -0 sed -i -e 's:-Ino/:-I/:g'   \
+                                                  -e 's:-Lno/:-L/:g'   \
+                                                  -e 's:-Lyes/:-L/:g'  \
+                                                  -e 's:-Iyes/:-I/:g'  &&
 
-  default_make &&
-
-  sedit "s:yes::" /usr/lib/pkgconfig/ortp.pc
-
-) > $C_FIFO 2>&1
+  default_make

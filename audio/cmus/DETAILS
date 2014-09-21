@@ -1,11 +1,11 @@
           MODULE=cmus
-         VERSION=v2.5.0
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha1:244975a5ff642567acb047f6bd518e4a3271c25b
+         VERSION=2.6.0
+          SOURCE=v$VERSION.tar.gz
+      SOURCE_URL=https://github.com/cmus/cmus/archive/
+      SOURCE_VFY=sha1:aba00eb75335532c0413f7c819c2e2d12fcd4314
         WEB_SITE=http://cmus.sourceforge.net
          ENTERED=20070902
-         UPDATED=20130205
+         UPDATED=20140814
            SHORT="ncurses based music player"
 
 cat << EOF

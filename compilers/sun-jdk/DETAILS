@@ -1,12 +1,12 @@
           MODULE=sun-jdk
-         VERSION=7u45
-        FVERSION=$VERSION-b18
-        DVERSION=1.7.0_45
+         VERSION=8u20
+        FVERSION=$VERSION-b26
+        DVERSION=1.8.0_20
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/jdk$DVERSION
         WEB_SITE=http://www.oracle.com/technetwork/java/javase/downloads/index.html
          LICENSE="proprietary"
          ENTERED=20070210
-         UPDATED=20130806
+         UPDATED=20140917
            SHORT="SUN java runtime environment"
 FUZZY=off
 LDD_CHECK=off

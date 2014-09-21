@@ -1,11 +1,11 @@
           MODULE=usb-modeswitch
-         VERSION=1.2.7
+         VERSION=2.2.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://www.draisberghof.de/usb_modeswitch
-      SOURCE_VFY=sha1:2fb5fa8341afb71c88edfb0abaa8dffec3796644
+      SOURCE_VFY=sha1:0a9d3c6879cd093826e95636001d334dc1f3dd3d
         WEB_SITE=http://www.draisberghof.de/usb_modeswitch
          ENTERED=20120111
-         UPDATED=20130812
+         UPDATED=20140603
            SHORT="mode switching tool for controlling USB gear"
 
 PSAFE=no

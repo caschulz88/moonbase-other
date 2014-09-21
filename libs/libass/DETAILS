@@ -1,11 +1,11 @@
           MODULE=libass
-         VERSION=0.10.2
+         VERSION=0.11.2
           SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=http://libass.googlecode.com/files
-      SOURCE_VFY=sha1:72a153364e838d3b561bae3653f1515169d479c4
+      SOURCE_URL=https://github.com/libass/libass/releases/download/${VERSION}
+      SOURCE_VFY=sha1:1bffc32d0a601ee6cf289797557bb38636e185b5
         WEB_SITE=http://code.google.com/p/libass
          ENTERED=20071017
-         UPDATED=20131027
+         UPDATED=20140504
            SHORT="library for SAA/ASS subtitles rendering"
 
 cat << EOF

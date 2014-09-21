@@ -1,11 +1,11 @@
           MODULE=mono
-         VERSION=3.2.3
+         VERSION=3.4.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.mono-project.com/sources/$MODULE
-      SOURCE_VFY=sha1:e356280ae45beaac6476824d551b094cd12e03b9
+      SOURCE_VFY=sha1:bae86f50f9a29d68d4e1917358996e7186e7f89e
         WEB_SITE=http://www.mono-project.com
          ENTERED=20020801
-         UPDATED=20130921
+         UPDATED=20140709
            PSAFE=no
            SHORT=".NET and C# Compiler"
 

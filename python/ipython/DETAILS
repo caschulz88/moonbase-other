@@ -1,16 +1,11 @@
           MODULE=ipython
-         VERSION=0.13.2
+         VERSION=2.1.0
           SOURCE=$MODULE-$VERSION.tar.gz
-  # MathJax support
-  MATHJAXVERSION=2.2
-         SOURCE2=v$MATHJAXVERSION.tar.gz
       SOURCE_URL=http://archive.ipython.org/release/$VERSION
-     SOURCE2_URL=https://github.com/mathjax/MathJax/archive
-      SOURCE_VFY=sha1:aedffe0cd55dda578f26fabe2a27870ef1b0bb9d
-     SOURCE2_VFY=sha1:92ee634faeee0c0cd8d200af78ad7685d4734906
-        WEB_SITE=http://ipython.scipy.org
+      SOURCE_VFY=sha1:e80c30388cbe576038a78fc8ebb159cddae84fb4
+        WEB_SITE=http://ipython.org
          ENTERED=20040707
-         UPDATED=20130609
+         UPDATED=20140605
            SHORT="An enhanced Interactive Python shell"
 
 cat << EOF

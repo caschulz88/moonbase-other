@@ -1,14 +1,16 @@
           MODULE=libvdpau
-         VERSION=0.7
+         VERSION=0.8
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://cgit.freedesktop.org/~aplattner/$MODULE/snapshot
-      SOURCE_VFY=sha1:134d522f952c747b0cad83a15585c9b2d5a3550b
+      SOURCE_URL=http://people.freedesktop.org/~aplattner/vdpau/
+      SOURCE_VFY=sha1:5618c2708cfa4c55e1c7acf74e5220a0acda4ea4
         WEB_SITE=http://cgit.freedesktop.org/~aplattner/libvdpau
          ENTERED=20090919
-         UPDATED=20130806
+         UPDATED=20140915
            SHORT="VDPAU wrapper library"
 
 cat << EOF
+Note: The author recommends freedesktop be used.
+
 To use this wrapper you need VDPAU driver library provided with your
 GPU driver. This means that now you can use this wrapper with Nvidia
 Geforce8 or later GPU using NVIDIA or NVIDIA-beta Lunar module.

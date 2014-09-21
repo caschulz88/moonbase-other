@@ -1,3 +1,8 @@
+
+# Needed to fix gcc-4.9 make failure
+CFLAGS+=" -fno-lto" &&
+CXXFLAGS+=" -fno-lto" &&
+
 OPTS+=" --disable-static" &&
 
 if in_depends $MODULE qt4 ; then
@@ -9,5 +14,5 @@ if [ "`get_module_config DOCS`" = "n" ] ; then
 fi &&
 
 # LIBS is needed for cairo-sphinx and others with --as-needed
-LIBS="-lstdc++" \
+LIBS+=" -lstdc++" \
 default_build

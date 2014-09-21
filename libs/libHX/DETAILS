@@ -1,0 +1,16 @@
+          MODULE=libHX
+         VERSION=3.21
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=$SFORGE_URL/libhx/
+      SOURCE_VFY=sha1:65c9f7091016b79531c927addebd1b54cdd0d67d
+        WEB_SITE=http://libhx.sourceforge.net/
+         ENTERED=20140711
+         UPDATED=20140711
+           SHORT="A library providing queue, tree, I/O and utility functions"
+
+cat << EOF
+libHX is a C library (with some C++ bindings available) that provides data
+structures and functions commonly needed, such as maps, deques, linked lists,
+string formatting and autoresizing, option and config file parsing, type checking
+casts and more.
+EOF

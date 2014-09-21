@@ -1,11 +1,11 @@
           MODULE=gnuplot
-         VERSION=4.6.3
+         VERSION=4.6.5
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha1:f01e417dc9504a05fd5cc2595b05ccb58bcea5b2
+      SOURCE_VFY=sha1:a74558d145344422674dea4f58c9cb0931872c36
         WEB_SITE=http://www.gnuplot.info
          ENTERED=20021015
-         UPDATED=20130603
+         UPDATED=20140401
            SHORT="command line program to make scientific graphs"
 
 cat << EOF

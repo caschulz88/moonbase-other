@@ -1,11 +1,11 @@
           MODULE=mpd
-         VERSION=0.18.7
+         VERSION=0.18.14
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=http://www.musicpd.org/download/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha1:feaea4781f01e518db22ccdb097059f33d77616e
+      SOURCE_VFY=sha256:8a33225f8abeb312f794ded01aaaa14e61ddcaf3723d298e266892343dae285d
         WEB_SITE=http://musicpd.org
          ENTERED=20060421
-         UPDATED=20140201
+         UPDATED=20140917
            SHORT="Music player daemon"
 
 cat << EOF

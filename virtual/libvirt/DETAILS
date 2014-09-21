@@ -1,12 +1,12 @@
           MODULE=libvirt
-         VERSION=1.2.1
+         VERSION=1.2.8
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://libvirt.org/sources
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha256:bc29b5751bf36753c17e2fdbb75e70c7b07df3d9527586d3426e90f5f4abb898
-        WEB_SITE=http://libvirt.org
+      SOURCE_VFY=sha256:0049940b013ea5858b53d9b540c9df9cc3c8cb08750acfd96e9991a1f709e100
+        WEB_SITE=http://libvirt.org/
          ENTERED=20130202
-         UPDATED=20140124
+         UPDATED=20140920
            SHORT="API for controlling virtualization engines"
 
 cat <<EOF

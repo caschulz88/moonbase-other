@@ -1,3 +1,5 @@
+# The API of nettle 3.0 is considered unstable and breaks gnutls
+# _DON'T_ bump until gnutls works with the new version
           MODULE=nettle
          VERSION=2.7.1
           SOURCE=$MODULE-$VERSION.tar.gz

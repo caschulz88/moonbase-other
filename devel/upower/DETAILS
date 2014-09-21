@@ -1,11 +1,11 @@
           MODULE=upower
-         VERSION=0.9.23
+         VERSION=0.99.1
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=http://upower.freedesktop.org/releases
-      SOURCE_VFY=sha1:8fc30c2d53b15c0a4e7c1bc077a912bc1aeb6138
+      SOURCE_VFY=sha1:94570b8c6e4fdd4c6d288d2c47d89879df43697b
         WEB_SITE=http://upower.freedesktop.org
          ENTERED=20100403
-         UPDATED=20131027
+         UPDATED=20140821
            SHORT="enumerates power devices and listens to device events"
 
 cat << EOF

@@ -1,12 +1,12 @@
           MODULE=semantik
-         VERSION=0.8.3
+         VERSION=0.9.2
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://semantik.googlecode.com/files/
-      SOURCE_VFY=sha1:663f5af865444368ad777518dceebb8195b19f6b
+      SOURCE_URL=http://ftp.waf.io/pub/release/
+      SOURCE_VFY=sha1:f69ceeec53c54c9d9468a68b030b8ea62e648d39
    MODULE_PREFIX=${KDE4_INSTALL_DIR:-/usr}
         WEB_SITE="http://freehackers.org/~tnagy/semantik.html"
          ENTERED=20071028
-         UPDATED=20121205
+         UPDATED=20140917
            SHORT="mindmapping-like tool to create general-purpose documents"
 
 cat << EOF

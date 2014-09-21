@@ -1,11 +1,11 @@
           MODULE=feh
-         VERSION=2.9.3
+         VERSION=2.12
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://derf.homelinux.org/~derf/projects/$MODULE
-      SOURCE_VFY=sha1:6e93c9bbc339d36002ead189d0a94880f58876bd
+      SOURCE_VFY=sha1:30eb2b778858b1f4ce97e44c8225758185b0c588
         WEB_SITE=http://derf.homelinux.org/~derf/projects/feh
          ENTERED=20011101
-         UPDATED=20130610
+         UPDATED=20140518
            SHORT="A fast, lightweight image viewer which uses imlib2"
 
 cat << EOF

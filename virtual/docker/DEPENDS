@@ -1,0 +1,11 @@
+depends bridge-utils
+depends iproute2
+depends lvm2
+depends sqlite
+depends systemd
+depends git
+depends go
+
+optional_depends "btrfs-progs" "" "" "for btrfs backend support"
+optional_depends "lxc"         "" "" "for lxc backend support"
+

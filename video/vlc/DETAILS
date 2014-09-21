@@ -1,11 +1,11 @@
           MODULE=vlc
-         VERSION=2.1.2
+         VERSION=2.1.5
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=http://download.videolan.org/pub/videolan/vlc/$VERSION
-      SOURCE_VFY=sha1:2b0ef3a3767c56d64a2815c772c8b3f865018e70
+      SOURCE_VFY=sha1:7f1cb6324a04cf393896bbb5976ca9febd7b3efc
         WEB_SITE=http://www.videolan.org
          ENTERED=20011113
-         UPDATED=20140118
+         UPDATED=20140708
            SHORT="Videolan client multimedia player"
 
 cat << EOF

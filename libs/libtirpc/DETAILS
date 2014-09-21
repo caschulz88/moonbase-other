@@ -1,11 +1,11 @@
           MODULE=libtirpc
-         VERSION=0.2.3
+         VERSION=0.2.5
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha1:7076d09762d11742de6d1b3d7162ee1e86d0b555
+      SOURCE_VFY=sha256:62f9de7c2c8686c568757730e1fef66502a0e00d6cacf33546d0267984e002db
         WEB_SITE=http://sourceforge.net/projects/libtirpc
          ENTERED=20100304
-         UPDATED=20130601
+         UPDATED=20140912
            SHORT="port of Sun's Transport-Independent RPC library to Linux"
 
 cat << EOF

@@ -1,4 +1,4 @@
-depends libtelepathy
 depends farstream
+depends telepathy-glib
 
 optional_depends "Python" "--enable-python" "--disable-python" "for Python bindings support"

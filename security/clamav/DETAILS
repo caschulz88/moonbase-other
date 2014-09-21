@@ -1,11 +1,11 @@
           MODULE=clamav
-         VERSION=0.98
+         VERSION=0.98.4
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha1:1e6a7284721387646c713a8d32fa8b5a897985db
+      SOURCE_VFY=sha1:f1003d04f34efb0aede05395d3c7cc22c944e4ef
         WEB_SITE=http://www.clamav.net
          ENTERED=20030314
-         UPDATED=20130921
+         UPDATED=20140621
            SHORT="GPL anti-virus toolkit"
 
 cat << EOF

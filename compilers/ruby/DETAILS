@@ -1,13 +1,13 @@
           MODULE=ruby
-         VERSION=2.0.0-p247
+         VERSION=2.1.3
           SOURCE=$MODULE-$VERSION.tar.bz2
-   SOURCE_URL[0]=ftp://ftp.ruby-lang.org/pub/$MODULE/2.0
+   SOURCE_URL[0]=ftp://ftp.ruby-lang.org/pub/$MODULE/${VERSION%.*}
    SOURCE_URL[1]=http://gd.tuwien.ac.at/languages/$MODULE
      SOURCE2_URL=$PATCH_URL
-      SOURCE_VFY=sha1:9d3e5758c87a2c8016aec246f278b7551f8cb675
+      SOURCE_VFY=sha256:36ce72f84ae4129f6cc66e33077a79d87b018ea7bf1dbc3d353604bf006f76d6
         WEB_SITE=http://www.ruby-lang.org/en
          ENTERED=20020106
-         UPDATED=20130628
+         UPDATED=20140920
            SHORT="A scripting language"
 
 cat << EOF

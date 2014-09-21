@@ -1,11 +1,11 @@
           MODULE=libtasn1
-         VERSION=3.4
+         VERSION=4.1
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=ftp://ftp.gnu.org/pub/gnu/$MODULE
-      SOURCE_VFY=sha1:f0e95f58b3c37405d48b91a585b517a4134586a9
+      SOURCE_VFY=sha256:60ee6571dcfa00cf55406404912274d6dc759cbaa80d666b89d819feeff5f301
         WEB_SITE=http://www.gnu.org/software/libtasn1
          ENTERED=20020212
-         UPDATED=20131130
+         UPDATED=20140824
            SHORT="ASN.1 library for gnutls"
 
 cat << EOF

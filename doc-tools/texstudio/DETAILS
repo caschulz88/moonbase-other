@@ -1,12 +1,12 @@
           MODULE=texstudio
-         VERSION=2.6.6
+         VERSION=2.8.4
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=$SFORGE_URL/$MODULE/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE${VERSION%*.}
-      SOURCE_VFY=sha1:a57d4dc77eaff151c2a04839cdd36772341c516c
+      SOURCE_VFY=sha1:b87ecbeeb87a3fdaf32bd719f7a86a759729f0e3
         WEB_SITE=http://texstudio.sourceforge.net/
          ENTERED=20110314
-         UPDATED=20140214
+         UPDATED=20140917
            SHORT="Fork of the LaTeX IDE TexMaker"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=pcmanfm
-         VERSION=1.1.2
-          SOURCE=$MODULE-$VERSION.tar.gz
+         VERSION=1.2.2
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha1:d6f42f0957abe25bb79b24b57bf1026eabe3d820
+      SOURCE_VFY=sha1:a7830691a68e3506043f38c5d34e983f98ee7d11
         WEB_SITE=http://pcmanfm.sourceforge.net
          ENTERED=20060624
-         UPDATED=20130812
+         UPDATED=20140824
            SHORT="A lightweight file manager featuring tab browsing"
 
 cat << EOF
