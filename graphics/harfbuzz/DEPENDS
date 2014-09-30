@@ -1,6 +1,11 @@
 depends glib-2
 depends pbzip2
 
+optional_depends "graphite2"           \
+                 "--with-graphite2"    \
+                 "--without-graphite2" \
+                 "for additional shapers support"
+
 optional_depends "freetype2" \
                  "--with-freetype=yes" \
                  "--with-freetype=no" \
@@ -18,7 +23,7 @@ optional_depends "icu4c" \
 
 optional_depends "gobject-introspection"  \
                  "--with-gobject=yes --enable-introspection=yes"  \
-                 "--with-gobject=no  --disable-introspection=no"  \
+                 "--with-gobject=no  --enable-introspection=no"  \
                  "for gobject introspection support"
 
 
